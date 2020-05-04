@@ -1,0 +1,8 @@
+server:
+  http2:
+    enabled: true
+  ssl:    key-store: classpath:keystore.p12
+    key-password: password
+    key-store-password: password
+    key-alias: localhost
+    key-store-type: pkcs12  port: 8443
